@@ -37,10 +37,10 @@
       <p class="subscribe-text subscribe-item">
         Подписаться на обновления
       </p>
-      <div class="subscribe-input subscribe-item">
-        <input type="text" class="subscribe" placeholder="Ваша почта">
-        <button class="subscribe-button">Подписаться</button>
-      </div>
+      <form class="subscribe-input subscribe-item" ngNativeValidate>
+        <input type="email" class="subscribe" placeholder="Ваша почта">
+        <button class="subscribe-button" type="submit">Подписаться</button>
+      </form>
     </div>
   </div>
   <div class="bottom">

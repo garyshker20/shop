@@ -1,0 +1,52 @@
+// @mixin for-phone-only {
+//     @media (max-width: 799px) { @content; }
+//   }
+// @mixin for-small-phones{
+//     @media (max-width: 399px){@content;}
+// }
+// @mixin from-0-to-1110{
+//     @media (max-width: 1110px){@content;}
+// }
+// @mixin from-800-to-1110{
+//     @media (min-width: 800px) and (max-width: 1110px){
+//         @content;
+//     }
+// }
+// @mixin from-900-to-1110{
+//     @media (min-width: 900px) and (max-width: 1110px){
+//         @content;
+//     }
+// }
+@mixin for-phone-only {
+    @media (max-width: 849px) { @content; }
+}
+@mixin from-850-to-1000{
+    @media (min-width: 850px) and (max-width: 1000px){
+        @content;
+    }
+}
+@mixin from-1000-to-1100{
+    @media (min-width: 1000px) and (max-width: 1100px){
+        @content;
+    }
+}
+@mixin from-850-to-1000{
+    @media (min-width: 850px) and (max-width: 1000px){
+        @content;
+    }
+}
+@mixin from-1100-to-1220{
+    @media (min-width: 1100px) and (max-width: 1220px){
+        @content;
+    }
+}
+@mixin from-1220-to-1350{
+    @media (min-width: 1220px) and (max-width: 1350px){
+        @content;
+    }
+}
+@mixin from-1350-to-1440{
+    @media (min-width: 1350px) and (max-width: 1439px){
+        @content;
+    }
+}

@@ -1,3 +1,4 @@
+@import '~src/scss/mixins.scss';
 .content{
     display: flex;
     flex-direction: column;
@@ -8,9 +9,16 @@
         border-bottom: 1px solid #e8e8e8;
         align-items: center;
         padding: 1.5rem 0;
+        @include for-phone-only{
+            flex-direction: column-reverse;
+        }
     }
     .search-container{
         width: 20rem;
+        @include for-phone-only{
+            width: 100%;
+            margin-top: 2rem;
+        }
     }
     .top-buttons{
         display: flex;
@@ -43,6 +51,14 @@
         justify-content: space-evenly;
         width: 50rem;        
         font-size: 1.3rem;
+        @include for-phone-only{
+            flex-direction: column;
+            width: auto;
+            text-align: center;
+            .menu-item{    
+                margin-bottom: 0.5rem;
+            }
+        }
     }
     .icon{
         width: 1.25rem;
