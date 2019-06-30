@@ -1,0 +1,48 @@
+.content{
+    margin: 0 3rem;
+    .top{
+        border-bottom: 1px solid #e8e8e8;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .links-item{
+        margin-bottom: 1rem;
+    }
+    .links-title{
+        font-size: 1.2rem;
+    }
+    .bottom{
+        margin: 1.5rem 0;
+    }
+    .subscribe-container{
+        font-size: 1.1rem;
+        width: 30rem;
+    }
+    .subscribe-title{
+        font-size: 1.2rem;
+    }
+    .subscribe-item{
+        margin-bottom: 1rem;
+    }
+    .subscribe-input{
+        display: flex;
+
+    }
+    .subscribe{
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #F4F4F4;
+        padding: 0.5rem;
+        height: 2rem;
+    }
+    .subscribe-button{
+        background-color: #333333;
+        border:none;
+        color: white;
+        cursor: pointer;
+        letter-spacing: 0.1rem;
+    }
+}
